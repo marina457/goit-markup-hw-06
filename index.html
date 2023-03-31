@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -369,7 +369,7 @@
             <div class="footer-subscribe-box">
                 <b class="footer-subscribe-title">Підпишіться на розсилку</b>
                 <form>
-                    <input class="footer-subscribe-input" type="email" name="email" placeholder="E-mail"/>
+                    <input class="footer-subscribe-input" type="email" name="email" placeholder="E-mail">
                     <button class="footer-subscribe-submit" type="submit">
                         Підписатися
                         <svg class="footer-subscribe-icon" width="24" height="24">
@@ -388,12 +388,12 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button> 
-        <b>Залиште свої дані, ми вам передзвонимо</b>  
+        <b class="button-title">Залиште свої дані, ми вам передзвонимо</b>  
         <form class="contact-form">
             <label class="contact-form-field">
                 <span class="label-title">Ім'я</span>
                 <span class="contact-form-input-wrapper">
-                    <input name="user_name" class="contact-form-input" type="text" required/>
+                    <input name="user_name" class="contact-form-input" type="text" required>
                     <svg class="icon-form" width="12" height="12">
                         <use href="./images/icons.svg#user"></use>
                     </svg>
@@ -402,7 +402,7 @@
             <label class="contact-form-field">
                 <span class="label-title">Телефон</span>
                 <span class="contact-form-input-wrapper">
-                    <input name="user_phone" class="contact-form-input" type="tel" required/>
+                    <input name="user_phone" class="contact-form-input" type="tel" required>
                     <svg class="icon-form" width="13" height="13">
                         <use href="./images/icons.svg#phone"></use>
                     </svg>
@@ -411,7 +411,7 @@
             <label class="contact-form-field">
                 <span class="label-title">Пошта</span>
                 <span class="contact-form-input-wrapper">
-                    <input name="user_mail" class="contact-form-input" type="email"/>
+                    <input name="user_mail" class="contact-form-input" type="email">
                     <svg class="icon-form" width="15" height="12">
                         <use href="./images/icons.svg#mail"></use>
                     </svg>
@@ -422,8 +422,8 @@
                 <textarea name="user_message" class="contact-form-message" placeholder="Введіть текст"></textarea>
             </label>
             <div class="contact-form-checkbox-wrapper">
-                <input name="accept-policy" type="checkbox" class="contact-form-checkbox visually-hidden" id="policy-checkbox" required/>
-                <label for="policy-checkbox" class="contact-form-checkbox-label">Погоджуюся з розсилкою та приймаю&nbsp<a class="checkbox-form-link" href="">Умови договору</a></label>
+                <input name="accept-policy" type="checkbox" class="contact-form-checkbox visually-hidden" id="policy-checkbox" required>
+                <label for="policy-checkbox" class="contact-form-checkbox-label">Погоджуюся з розсилкою та приймаю&nbsp;<a class="checkbox-form-link" href="">Умови договору</a></label>
             </div>
             <button type="submit" class="contact-form-submit-btn">Відправити</button>
         </form> 
