@@ -787,7 +787,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 528px;
-    height: 580px;
+    min-height: 581px;
     background-color: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -820,10 +820,8 @@ img {
 }
 
 .button-title {
-    margin-top: 0;
     margin-bottom: 12px;
-
-    display: inline-block;
+    display: block;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 20px;
@@ -834,6 +832,11 @@ img {
 
 .contact-form-field {
     display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form-field.margin {
+    margin-bottom: 0;
 }
 
 .contact-form-input {
@@ -879,7 +882,7 @@ img {
 }
 
 .contact-form-message {
-    width: 100%;
+    width: 448px;
     height: 120px;
     margin-top: 4px;
     padding: 14px 16px;
@@ -969,5 +972,5 @@ img {
     color: var(--background-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-color: var(--accent-color);
-    cursor: pointer; 
+    cursor: pointer;
 }
